@@ -25,9 +25,9 @@ I'm a Python/Django developer with a solid foundation in web development and a k
 ![C](https://img.shields.io/badge/-C-333?style=flat&logo=c)
 ![C++](https://img.shields.io/badge/-C++-333?style=flat&logo=c%2B%2B)
 ![Go](https://img.shields.io/badge/-Go-333?style=flat&logo=go)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-333?style=flat&logo=sqlite)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333?style=flat&logo=postgresql)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-333?style=flat&logo=mysql)
 ![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
 ![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
 
