@@ -51,9 +51,9 @@ Here are some of my notable projects:
 
 ## 📈 GitHub Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sireesbrl&layout=compact&theme=radical)
+![Top Languages](./assets/top-langs.svg)
 
-![Shirish's GitHub stats](https://github-readme-stats.vercel.app/api?username=sireesbrl&show_icons=true&theme=radical)
+![GitHub Stats](./assets/github-stats.svg)
 
 I'm working on improving my contributions to open-source projects and building more impactful tools.
 
