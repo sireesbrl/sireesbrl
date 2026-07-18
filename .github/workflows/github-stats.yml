@@ -1,0 +1,38 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=sireesbrl&show_icons=true&theme=radical
+          path: assets/github-stats.svg
+
+      - name: Generate Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=sireesbrl&layout=compact&theme=radical
+          path: assets/top-langs.svg
+
+      - name: Commit generated cards
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git add assets/*.svg
+          git commit -m "Update GitHub stats" || exit 0
+          git push
